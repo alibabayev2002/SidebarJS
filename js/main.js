@@ -1,14 +1,15 @@
 Object.prototype.sidebar = function (width,selecter) {
     $(selecter).addClass('sidebar-invisible');
-    $('.sidebar-invisible').css('width' , width + 'px')
-    $('.sidebar-invisible').css('left' , '-' + width + 'px')
+    const invisibleSidebar = $('.sidebar-invisible')
+    invisibleSidebar.css('width' , width + 'px')
+    invisibleSidebar.css('left' , '-' + width + 'px')
     this.click(function(){
         if($('body').hasClass('sidebar-body')){
             $('body').removeClass('sidebar-body')
-            $('.sidebar-invisible').removeClass('sidebar')
+            invisibleSidebar.removeClass('sidebar')
         }else{
             $('body').addClass('sidebar-body')
-            $('.sidebar-invisible').addClass('sidebar')
+            invisibleSidebar.addClass('sidebar')
         }
     });
 }
