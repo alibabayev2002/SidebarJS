@@ -1,9 +1,10 @@
 # js-sidebar
-
+jquery
 
 <div class="sidebar">
-       SIDEBAR
+             SIDEBAR
 </div>
+
 <button id="button">Sidebar</button>
 
 <script>
