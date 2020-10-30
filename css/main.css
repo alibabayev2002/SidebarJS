@@ -1,8 +1,10 @@
 .sidebar{
     left: 0px !important;
+    transform: translateX(0px) !important;
     opacity: 1 !important;
 }
 .sidebar-invisible{
+    ;
     transition: 400ms all;
     opacity: 0;
     top: 0;
