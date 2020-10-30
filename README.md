@@ -2,7 +2,7 @@
 
 
 <div class="sidebar">
-        burasi sidebardi
+       SIDEBAR
 </div>
 <button id="button">Sidebar</button>
 
